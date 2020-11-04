@@ -1,0 +1,169 @@
+/* 全体のスタイル */
+body {
+  font-family: serif;
+  margin: 0;
+}
+
+/* ヘッダーのスタイル */
+header {
+  background: #c1994d;
+  height: 100px;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  padding-top: 24px;
+}
+
+/* メインのスタイル */
+main {
+  background: #94c674;
+  padding: 20px;
+}
+
+/* ボタンのスタイル */
+#gide1,
+#gide2,
+#gide3 {
+  width: 120px;
+  font-size: 36px;
+  margin: 0 auto 5px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 4px;
+  box-shadow: 0 2px 0;
+  cursor: pointer;
+}
+
+#gide1:active {
+  box-shadow: none;
+  margin-top: 2px;
+}
+
+#gide2:active, 
+#gide3:active {
+  box-shadow: none;
+  margin-top: 7px;
+}
+
+.top-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#back,
+#next {
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 4px 12px;
+  background: #f1e2be;
+  cursor: pointer;
+  user-select: none;
+}
+
+.top-wrapper p:hover {
+  opacity: 0.8;
+}
+
+/* 問題文と選択肢のスタイル */
+
+/* 初級 */
+#select-question1, 
+#select-question2,
+#select-question3 {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #f1e2be;
+  border-radius: 12px;
+  background: #f1e2be;
+  text-align: center;
+  padding: 10px;
+}
+
+/* 中級 */
+#select-question4, 
+#select-question5,
+#select-question6 {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #f1e2be;
+  border-radius: 12px;
+  background: #f1e2be;
+  text-align: center;
+  padding: 10px;
+}
+
+/* 上級 */
+#select-question7, 
+#select-question8,
+#select-question9 {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #f1e2be;
+  border-radius: 12px;
+  background: #f1e2be;
+  text-align: center;
+  padding: 10px;
+}
+
+/* 選択肢 */
+#choices li {
+  border: 1px solid;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+}
+
+#choices li:hover {
+  opacity: 0.4;
+}
+
+#choices li.correct {
+  background: #d4edda;
+  border-color: #c3e6cb;
+}
+
+#choices li.correct::after {
+  content: "...正解！";
+}
+
+#choices li.wrong {
+  background: #f8d8da;
+  border-color: #f5c6cb;
+}
+
+#choices li.wrong::after {
+ content: "...不正解！"
+}
+
+/* フッターのスタイル */
+footer {
+  background: #c1994d;
+  height: 50px;
+}
+
+#top {
+  color: #f1e2be;
+  width: 64px;
+  margin: 0 auto;
+  border-bottom: 1px solid;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+#top:hover {
+  opacity: 0.8;
+}
+
+/* デイスプレイに映さない */
+.display {
+  display: none;
+}
+
+/* 中級編の説明と上級編のヒント */
+#question p {
+  margin: 0;
+}

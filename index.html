@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <title>麻雀道場</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <h1>麻雀道場</h1>
+  </header>
+
+  <!-- メイン -->
+  <main>
+
+    <!-- トップ画面 -->
+    <div class="start">
+      <h1 id="gide1">初級編</h1>
+      <h1 id="gide2">中級編</h1>
+      <h1 id="gide3">上級編</h1>
+    </div>
+
+    <!-- 案内文 -->
+    <div class="top-wrapper">
+      <p id="back">←前の問題</p>
+      <p id="next">次の問題→</p>
+    </div>
+
+    <!-- 問題文と選択肢 -->
+    <div class="main-wrapper">
+
+      <!-- 初級編 -->
+      <div id="select-question1">
+        <div id="question">
+          <h2>Q.いずれのうち、順子（しゅんつ）を選んでください。</h2>
+        </div>
+        <ol id="choices">
+          <li class="correct-choice">
+            <img src="image/0m3.png">
+            <img src="image/0m4.png">
+            <img src="image/0m5.png">
+          </li>
+          <li>
+            <img src="image/0p1.png">
+            <img src="image/0p1.png">
+            <img src="image/0p1.png">
+          </li>
+          <li>
+            <img src="image/0s1.png">
+            <img src="image/0s1.png">
+          </li>
+        </ol>
+      </div>
+      <div id="select-question2">
+        <div id="question">
+          <h2>Q.いずれのうち、刻子（こーつ）を選んでください。</h2>
+        </div>
+        <ol id="choices">
+          <li>
+            <img src="image/0m3.png">
+            <img src="image/0m4.png">
+            <img src="image/0m5.png">
+          </li>
+          <li class="correct-choice">
+            <img src="image/0p1.png">
+            <img src="image/0p1.png">
+            <img src="image/0p1.png">
+          </li>
+          <li>
+            <img src="image/0s1.png">
+            <img src="image/0s1.png">
+          </li>
+        </ol>
+      </div>
+      <div id="select-question3">
+        <div id="question">
+          <h2>Q.いずれのうち、対子（といつ）を選んでください。</h2>
+        </div>
+        <ol id="choices">
+          <li>
+            <img src="image/0m3.png">
+            <img src="image/0m4.png">
+            <img src="image/0m5.png">
+          </li>
+          <li>
+            <img src="image/0p1.png">
+            <img src="image/0p1.png">
+            <img src="image/0p1.png">
+          </li>
+          <li class="correct-choice">
+            <img src="image/0s1.png">
+            <img src="image/0s1.png">
+          </li>
+        </ol>
+      </div>
+
+      <!-- 中級編 -->
+      <div id="select-question4">
+        <div id="question">
+          <h2>Q.断幺（タンヤオ）の役を選んでください。</h2>
+        </div>
+        <ol id="choices">
+          <li class="correct-choice">
+            <img src="image/0m2.png">
+            <img src="image/0m3.png">
+            <img src="image/0m4.png">
+            <img src="image/0p6.png">
+            <img src="image/0p7.png">
+            <img src="image/0p8.png">
+            <img src="image/0s3.png">
+            <img src="image/0s4.png">
+            <img src="image/0s5.png">
+            <img src="image/0s8.png">
+            <img src="image/0s8.png">
+            <img src="image/0s8.png">
+            <img src="image/0m7.png">
+            <img src="image/0m7.png">
+          </li>
+          <li>
+            <img src="image/0m1.png">
+            <img src="image/0m2.png">
+            <img src="image/0m3.png">
+            <img src="image/0p6.png">
+            <img src="image/0p7.png">
+            <img src="image/0p8.png">
+            <img src="image/0s1.png">
+            <img src="image/0s2.png">
+            <img src="image/0s3.png">
+            <img src="image/0s8.png">
+            <img src="image/0s8.png">
+            <img src="image/0s8.png">
+            <img src="image/0j1.png">
+            <img src="image/0j1.png">
+          </li>
+          <li>
+            <img src="image/0m3.png">
+            <img src="image/0m4.png">
+            <img src="image/0m5.png">
+            <img src="image/0p7.png">
+            <img src="image/0p8.png">
+            <img src="image/0p9.png">
+            <img src="image/0j3.png">
+            <img src="image/0j3.png">
+            <img src="image/0j3.png">
+            <img src="image/0s8.png">
+            <img src="image/0s8.png">
+            <img src="image/0s8.png">
+            <img src="image/0m1.png">
+            <img src="image/0m1.png">
+          </li>
+        </ol>
+      </div>
+      <div id="select-question5">
+        <div id="question">
+          <h2>Q.三色同順（さんしょくどうじゅん）の役を選んでください。</h2>
+        </div>
+        <ol id="choices">
+          <li>
+            <img src="image/0m2.png">
+            <img src="image/0m3.png">
+            <img src="image/0m4.png">
+            <img src="image/0p3.png">
+            <img src="image/0p3.png">
+            <img src="image/0p4.png">
+            <img src="image/0p4.png">
+            <img src="image/0p5.png">
+            <img src="image/0p5.png">
+            <img src="image/0s9.png">
+            <img src="image/0s9.png">
+            <img src="image/0s9.png">
+            <img src="image/0m7.png">
+            <img src="image/0m7.png">
+          </li>
+          <li class="correct-choice">
+            <img src="image/0m1.png">
+            <img src="image/0m2.png">
+            <img src="image/0m3.png">
+            <img src="image/0p1.png">
+            <img src="image/0p2.png">
+            <img src="image/0p3.png">
+            <img src="image/0s1.png">
+            <img src="image/0s2.png">
+            <img src="image/0s3.png">
+            <img src="image/0s4.png">
+            <img src="image/0s5.png">
+            <img src="image/0s6.png">
+            <img src="image/0j5.png">
+            <img src="image/0j5.png">
+          </li>
+          <li>
+            <img src="image/0m3.png">
+            <img src="image/0m3.png">
+            <img src="image/0m3.png">
+            <img src="image/0p3.png">
+            <img src="image/0p3.png">
+            <img src="image/0p3.png">
+            <img src="image/0p7.png">
+            <img src="image/0p8.png">
+            <img src="image/0p9.png">
+            <img src="image/0s3.png">
+            <img src="image/0s3.png">
+            <img src="image/0s3.png">
+            <img src="image/0m2.png">
+            <img src="image/0m2.png">
+          </li>
+        </ol>
+      </div>
+      <div id="select-question6">
+        <div id="question">
+          <h2>Q.平和（ピンフ）の役を選んでください。</h2>
+          <p>※ただし自分は現在、東家（とんちゃ）。</p>
+        </div>
+        <ol id="choices">
+          <li class="correct-choice">
+            <img src="image/0m1.png">
+            <img src="image/0m2.png">
+            <img src="image/0m3.png">
+            <img src="image/0p1.png">
+            <img src="image/0p2.png">
+            <img src="image/0p3.png">
+            <img src="image/0s6.png">
+            <img src="image/0s6.png">
+            <img src="image/0s7.png">
+            <img src="image/0s7.png">
+            <img src="image/0s8.png">
+            <img src="image/0s8.png">
+            <img src="image/0m7.png">
+            <img src="image/0m7.png">
+          </li>
+          <li>
+            <img src="image/0m1.png">
+            <img src="image/0m1.png">
+            <img src="image/0m1.png">
+            <img src="image/0p5.png">
+            <img src="image/0p5.png">
+            <img src="image/0p5.png">
+            <img src="image/0s1.png">
+            <img src="image/0s2.png">
+            <img src="image/0s3.png">
+            <img src="image/0j7.png">
+            <img src="image/0j7.png">
+            <img src="image/0j7.png">
+            <img src="image/0j6.png">
+            <img src="image/0j6.png">
+          </li>
+          <li>
+            <img src="image/0m3.png">
+            <img src="image/0m4.png">
+            <img src="image/0m5.png">
+            <img src="image/0p7.png">
+            <img src="image/0p8.png">
+            <img src="image/0p9.png">
+            <img src="image/0s2.png">
+            <img src="image/0s3.png">
+            <img src="image/0s4.png">
+            <img src="image/0s5.png">
+            <img src="image/0s6.png">
+            <img src="image/0s7.png">
+            <img src="image/0j1.png">
+            <img src="image/0j1.png">
+          </li>
+        </ol>
+      </div>
+
+      <!-- 上級編 -->
+      <div id="select-question7">
+        <div id="question">
+          <h2>Q.以下の配牌の待ちをすべて選んでください。</h2>
+          <img src="image/0m2.png">
+          <img src="image/0m3.png">
+          <img src="image/0m4.png">
+          <img src="image/0m5.png">
+          <img src="image/0m6.png">
+          <img src="image/0p1.png">
+          <img src="image/0p2.png">
+          <img src="image/0p3.png">
+          <img src="image/0s7.png">
+          <img src="image/0s8.png">
+          <img src="image/0s9.png">
+          <img src="image/0j2.png">
+          <img src="image/0j2.png">
+          <p>※ヒント…待ちは3種類です。</p>
+        </div>
+        <ol id="choices">
+          <li class="correct-choice"><img src="image/0m1.png"></li>
+          <li><img src="image/0m2.png"></li>
+          <li><img src="image/0m3.png"></li>
+          <li class="correct-choice"><img src="image/0m4.png"></li>
+          <li><img src="image/0m5.png"></li>
+          <li><img src="image/0m6.png"></li>
+          <li class="correct-choice"><img src="image/0m7.png"></li>
+          <li><img src="image/0m8.png"></li>
+          <li><img src="image/0m9.png"></li>
+        </ol>
+      </div>
+
+      <div id="select-question8">
+        <div id="question">
+          <h2>Q.以下の配牌の待ちをすべて選んでください。</h2>
+          <img src="image/0m1.png">
+          <img src="image/0m2.png">
+          <img src="image/0m3.png">
+          <img src="image/0m7.png">
+          <img src="image/0m8.png">
+          <img src="image/0m9.png">
+          <img src="image/0p2.png">
+          <img src="image/0p3.png">
+          <img src="image/0p3.png">
+          <img src="image/0p3.png">
+          <img src="image/0j5.png">
+          <img src="image/0j5.png">
+          <img src="image/0j5.png">
+          <p>※ヒント…待ちは3種類です。</p>
+        </div>
+        <ol id="choices">
+          <li class="correct-choice"><img src="image/0p1.png"></li>
+          <li class="correct-choice"><img src="image/0p2.png"></li>
+          <li><img src="image/0p3.png"></li>
+          <li class="correct-choice"><img src="image/0p4.png"></li>
+          <li><img src="image/0p5.png"></li>
+          <li><img src="image/0p6.png"></li>
+          <li><img src="image/0p7.png"></li>
+          <li><img src="image/0p8.png"></li>
+          <li><img src="image/0p9.png"></li>
+        </ol>
+      </div>
+
+      <div id="select-question9">
+        <div id="question">
+          <h2>Q.以下の配牌の待ちをすべて選んでください。</h2>
+          <img src="image/0m7.png">
+          <img src="image/0m8.png">
+          <img src="image/0m9.png">
+          <img src="image/0s2.png">
+          <img src="image/0s3.png">
+          <img src="image/0s4.png">
+          <img src="image/0s5.png">
+          <img src="image/0s6.png">
+          <img src="image/0s6.png">
+          <img src="image/0s6.png">
+          <img src="image/0j6.png">
+          <img src="image/0j6.png">
+          <img src="image/0j6.png">
+          <p>※ヒント…待ちは５種類です。</p>
+        </div>
+        <ol id="choices">
+          <li class="correct-choice"><img src="image/0s1.png"></li>
+          <li class="correct-choice"><img src="image/0s2.png"></li>
+          <li><img src="image/0s3.png"></li>
+          <li class="correct-choice"><img src="image/0s4.png"></li>
+          <li class="correct-choice"><img src="image/0s5.png"></li>
+          <li><img src="image/0s6.png"></li>
+          <li class="correct-choice"><img src="image/0s7.png"></li>
+          <li><img src="image/0s8.png"></li>
+          <li><img src="image/0s9.png"></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <p id="top">最初から</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
